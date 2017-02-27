@@ -1,7 +1,25 @@
 
 # Change Log
 
+## [0.9.5] - 2017-02-27
+
+* -d <systemdefaultTime> option added with the following options:
+  * TIME.json file will be used as the primary source of for systems response time for the API under test
+  * If TIME.json does not exist or the key is missing in the file, -d arg will be used as system defaults response time 
+* Additional Header support added
+* SSL support added 
+
+
+
+
+# [0.9.4] -
+
+Test version - not uploaded
+
+
+
 ## [0.9.3] - 2016-12-05
+
 - -t <responseTime> option to specify a response delay for responses--to simulate a real system better
 - fixed bug where GET /redfish/v1/$metadata was not being returned
 
@@ -12,4 +30,4 @@
 
 ## [0.9.1] - 2016-09-06
 - Initial Public Release
-- 
+- ​
